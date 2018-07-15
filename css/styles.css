@@ -1,5 +1,8 @@
 .grid {
   display: grid;
+  /* sizes of columns and rows can use CSS units such as px or vw */
+  /* auto keyword enables columns or rows to stretch across all available space */
+  /* fr is a fractional unit which causes any available space to be distributed to columns based on ratios of these columns */
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(4, 75px);
   background-color: green;
